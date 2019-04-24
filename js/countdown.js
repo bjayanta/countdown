@@ -1,14 +1,11 @@
 /**
  * define plugin name
  * set default options and set rules
- * catch mark from element data attribute 
- * initialize the result object
+ * initialize the record object
+ * check the given date-time is valid or not
  * 
- * check the given mark is 'greater then or equal' from passmark
- * match the mark to the given settings
- * 
- * set the result into dom
- * set the success method and send the result object as param
+ * set the output into dom
+ * set the success method and send the record object as param
  */
 
 (function($) {
@@ -72,24 +69,3 @@
         });
     }
 }(jQuery));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
